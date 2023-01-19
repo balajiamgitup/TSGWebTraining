@@ -1,0 +1,12 @@
+.div {
+  background-color: #793131;
+}
+
+.div:hover {
+  background-color: blue;
+}
+
+.div::after {
+  content: "Hello Ust";
+}
+/*# sourceMappingURL=style.css.map */

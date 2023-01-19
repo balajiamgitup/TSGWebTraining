@@ -1,0 +1,65 @@
+borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+.carousel-inner{
+  margin: 21px 3px 61px;
+  margin-bottom: 10px;
+}
+
+  .col-sm-8 text-left,#img{
+    min-height: 665px;
+        position: relative;
+        right: -68px;
+    }
+    #main{
+        min-height: 665px;
+        background-color: beige;
+    }
+    th {
+      font-weight : bold
+  }
+   #table{
+    position: relative;
+    top: 10px;
+   }
+ #login{
+   position: relative;
+   top: 211px;
+ }
+#footer{
+  position: relative;
+  bottom: -80px;
+}
+   .login_page{
+    position: relative;
+    top: -219px;
+     width: 360px;
+     padding: 10% 0 0;
+     margin:auto
+    }
+   
+   .form{position: relative;z-index: 1;background:rgba(7, 40, 195, 0.8);max-width:360px;margin: 0 auto 100px;padding:45px;text-align: center;border-radius: 6px}.form input{font-family: "Roboto", Sans-serif;outline:1;width:100%;border: 0;margin:0 0 15px;padding: 15px;box-sizing: border-box;font-size: 14px;border-radius: 2px}.form button{font-family: "Roboto", Sans-serif;text-transform: uppercase;outline: 0;background: #4CAF50;width: 100%;border:2;border-radius: 4px;padding: 15px;color: #fff;font-size: 14px;cursor: pointer}.form button:hover,.form button:active{background: #43A047}.form .message{margin: 15px 0 0;color: aliceblue;font-size: 16px}
+   .form .message a{color: #4CAF50;text-decoration: none}.form .register_form{display: none}
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;}
+    }

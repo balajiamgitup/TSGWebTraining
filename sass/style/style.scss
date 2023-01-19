@@ -1,0 +1,10 @@
+$bcolor:rgb(121, 49, 49);
+.div{
+  background-color: $bcolor;
+  &:hover{
+      background-color: blue;
+  }
+  &::after{
+      content: "Hello Ust";
+  }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=
+    <h2>JavaScript HTML DOM</h2>
+
+    <div id="main">
+      <p>Finding HTML Elements by Tag Name</p>
+      <p>This example demonstrates the <b>getElementsByTagName</b> method.</p>
+    </div>
+
+    <p id="demo"></p>
+    <script>
+      function run() {
+        // Creating Our XMLHttpRequest object
+        var xhr = new XMLHttpRequest();
+
+        // Making our connection
+        var url = "https://jsonplaceholder.typicode.com/todos/1";
+        xhr.open("GET", url, true);
+
+        // function execute after request is successful
+        xhr.onreadystatechange = function () {
+          if (this.readyState == 4 && this.status == 200) {
+            console.log(this.responseText);
+          }
+        };
+        // Sending our request
+        xhr.send();
+      }
+      run();
+    </script>
+
+    <title>Document</title>
+  </head>
+  <body>
+      <h5>balaji</h5>
+  </body>
+</html>

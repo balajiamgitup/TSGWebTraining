@@ -1,0 +1,27 @@
+Restaurant Order Management
+1. The program will accept the Order Details from the console
+Each Order will have these info {Order Number, Table Number, Order Status, Bill, Order Items}
+2. The waiter can Add/View/Update the Order details
+3. The Kitchen staff should be able to update the order status
+Level 2:
+
+4. The above program should retain the console based implementation, but the data needs to be persisted and searched from a file
+
+
+Level 3:
+
+5. The above program should retain the console based implementation, but the data needs to be persisted and searched from a database RDBMS
+In all the above cases, apart from code for development, logging, exception handling, unit testing, coverage and standards should be followed. 
+
+
+
+  UI screen need to build :-
+*Hotel menu ,table details , bill  
+
+ 1)waiter can Add/View/Update the Order details.
+ 2)Kitchen staff should be able to update the order status.
+ 3)Customer can order, select table, he can change order .
+
+*customer 
+
+ 4)Each order should have Order Number, Table Number, Order Status, Bill, Order Items

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body,html {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 109px;
+  /* justify-content: space-around;
+  align-content:space-between; */
+
+}
+
+.letter {
+  background-color: #0069b3;
+  align-items: center;
+  padding: 20px;
+  font-size: 70px;
+  color: white;
+  line-height: 1;
+  font-family: 'hobeaux-rococeaux-background', Helvetica;
+  font-weight: 200;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+#l1{
+    background-color: aqua;
+    min-height: 50px;
+}
+.grid-container{
+  min-height: 500px;
+  display: grid;
+  grid-template-columns: auto auto  ;
+  align-content: space-around;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+#l3{
+  min-height: 50px;
+  background-color: rgb(127, 226, 45);
+}
+.grid-container > div{
+  min-height: 200px;
+  position: relative;
+  right: -30px;
+  width: 50%;
+  background-color: #828d1a;
+  padding: 10px  20px;
+}
+
+#l4{
+    background-color: darkgreen;
+}
+</style>
+</head>
+<body>
+
+    <div class='wrapper'>
+        <div class='letter' id="l1">
+          A
+          </div>
+        </div>
+        <div class='grid-container' id="l2">
+          <div  class="child" >
+          1
+          </div>
+          <div class="child" id="c2">
+     2
+          </div>
+        </div>
+        <div class='letter' id="l3">
+            C
+          </div>
+      </div>
+
+    </body>
+</html>    

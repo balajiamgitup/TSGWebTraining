@@ -1,0 +1,213 @@
+body {
+    background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0px;
+  }
+  .main_div {
+    width: 100%;
+  }
+  .fullWidth {
+    width: 100%;
+  }
+  .container {
+    margin: 0 auto;
+    width: 1140px;
+    position: relative;
+    min-height: 55px;
+  }
+  .floatLeft {
+    float: left;
+  }
+  #menuBox {
+    position: absolute;
+    right: 0px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+
+  #bioBox {
+    background-color: #fff;
+    border-radius: 20px;
+    min-height: 600px;
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    box-shadow: 0px 0px 75px 0px rgba(50, 50, 50, 1);
+  }
+  img {
+    padding: 20px;
+    width:100%
+  }
+  #aboutBox {
+    min-height: 500px;
+    background: #fff;
+    float: left;
+  }
+  #bioContainer {
+    min-height: 475px;
+  }
+  #bannerImage,#bannercontent{
+    width: 59%;
+    float: left;
+  }
+  #bannercontent{
+    margin: 70px 0px;
+    width: 37%
+  }
+  #bannercontent p{
+    font-family: "Roboto",sans-serif;
+    max-width: 540px;
+    color: #777;
+    margin-bottom: 40px;
+  }
+  #bannercontent h6{
+    font-size: 14px;
+    font-family: "Roboto",sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2.1px;
+    font-weight: normal;
+    margin-bottom: 12px;
+    color: #222;
+  }
+  #bannercontent h3{
+       text-transform: uppercase;
+  margin-bottom: 15px;
+  color: #222;
+  font-size: 33px;
+  }
+  #bannercontent h4{ font-size: 16px;
+  font-weight: 500;
+  font-family: "Roboto",sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #222;}
+  #bannercontent,.basic_info li a {
+    position: relative;
+    padding-left: 60px;
+    font-size: 16px;
+    color: #777;
+    
+}
+ul {
+  list-style-type: none;
+  padding: 13px;
+  position: relative;
+  right: 63px;
+  overflow: hidden;
+}
+#bannercontent,.social{
+  margin-top: 45px;
+}
+#bannercontent,.social li{
+display: inline-block;
+margin-right: 7px;
+}
+#bannercontent .social li a{
+  position: relative;
+  right: -55px;
+  line-height: 8px;
+  width: 47px;
+  background: #e8e8e8;
+  border-radius: 13px;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  font-size: 17px;
+}
+#bannercontent .social li a:hover{
+  background-color: #766dff;
+}
+  /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+  .main_col {
+    background-color: white;
+    position: relative;
+    margin-top: 300px;
+    min-height: 500px;
+    float: left;
+    width: 100%;
+  }
+  .col_log1 {
+    min-height: 500px;
+    position: relative;
+    margin-top: 300px;
+    float: left;
+    width: 45%;
+    background-color: white;
+    position: relative;
+    min-height: 500px;
+  }
+  .row {
+    /* background: #000; */
+    min-height: 250px;
+    width: 100%;
+  }
+  .col_mid1 {
+    margin: 10px;
+    position: relative;
+    min-height: 100px;
+    width: 25%;
+    float: left;
+    margin: 20px 20px;
+  }
+  .well_item {
+    margin: 20px 20px;
+    min-height: 80px;
+    width: 75%;
+    background-color: rgb(233, 218, 218);
+  }
+  #log2 {
+    position: relative;
+    bottom: 330px;
+    min-height: 400px;
+    background-color: brown;
+  }
+  /* #mid1 {
+    background-color: #766dff;
+  }
+  #mid2 {
+    background-color: aqua;
+  }
+  #mid3 {
+    background-color: brown;
+  } */
+  .welcome_txt {
+    background-color: white;
+    position: relative;
+    bottom: 300px;
+    min-height: 250px;
+    width: 100%;
+  }
+  .welcome_txt p,.bannercontent p {
+    max-width: 495px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 40px;
+    color: #111;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
